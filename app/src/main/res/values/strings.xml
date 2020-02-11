@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">People</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="an_error_occurred_while_loading">An Error Occurred While Loading</string>
 </resources>
