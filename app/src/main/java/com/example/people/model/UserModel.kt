@@ -4,26 +4,29 @@ import com.google.gson.annotations.SerializedName
 
 data class UserModel(
 
-    @SerializedName( "id")
-    val id : Int?,
+    @SerializedName("id")
+    val id: Int?,
 
     @SerializedName("first_name")
-    val first_name : String?,
+    val first_name: String?,
 
     @SerializedName("last_name")
-    val last_name : String?,
+    val last_name: String?,
+
+    @SerializedName("email")
+    val email: String?,
 
     @SerializedName("avatar")
-    val avatar : String?
+    val avatar: String?
 
-){
+) {
 
 }
 
 data class UserResponse(
-    val page:Int?,
-    val per_page:Int?,
-    val total : Int?,
+    val page: Int?,
+    val per_page: Int?,
+    val total: Int?,
 
-    val userModels : List<UserModel>
+    val userModels: List<UserModel>
 )
